@@ -52,7 +52,21 @@ void atividade4(){
 }
 
 void atividade5(){
-
+//Escreva um algoritmo que leia 2 números e exiba qual dos dois é o maior.
+    int a, b;
+    printf("\nEscreva o valor de A: ");
+        scanf("%d", &a);
+        printf("\n");
+    printf("Escreva o valor de B: ");
+        scanf("%d", &b);
+    if (A > B){
+        printf("A eh maior que B");
+    } if else (B > A){
+        printf("B eh maior que a");
+    } else {
+        printf("Os dois valores sao iguais");
+    }
+ 
 
 }
 
