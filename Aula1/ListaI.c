@@ -59,14 +59,13 @@ void atividade5(){
         printf("\n");
     printf("Escreva o valor de B: ");
         scanf("%d", &b);
-    if (A > B){
-        printf("A eh maior que B");
-    } if else (B > A){
-        printf("B eh maior que a");
+    if (a > b){
+        printf("A eh maior que B\n");
+    } else if (b > a){
+        printf("B eh maior que A\n");
     } else {
-        printf("Os dois valores sao iguais");
+        printf("Os dois valores sao iguais\n");
     }
- 
 
 }
 
